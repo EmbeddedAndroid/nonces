@@ -344,7 +344,27 @@ body {
   margin: auto;
 }
 
+.subscribe-form1 {
+  display: block;
+  padding-top: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
 .subscribe-form input {
+  font-size: 14px;
+  font-family: Open Sans;
+  border: none;
+  height: 55px;
+  display: block;
+  width: 300px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 20px;
+  border-radius: 3px;
+}
+
+.subscribe-form1 input {
   font-size: 14px;
   font-family: Open Sans;
   border: none;
@@ -359,13 +379,24 @@ body {
 
 @media (max-width: 1170px) {
   .subscribe-form input {
-    height: 50px;
+    height: 30px;
     padding: 0 10px;
-    width: 200px;
+    width: 300px;
+    margin: 1px;
+  }
+  .subscribe-form1 input {
+    height: 30px;
+    padding: 0 10px;
+    width: 300px;
+    margin: 1px;
   }
 }
 
 .subscribe-form input:focus {
+  outline: none;
+}
+
+.subscribe-form1 input:focus {
   outline: none;
 }
 
@@ -376,7 +407,22 @@ body {
   margin-bottom: 30px;
 }
 
+.subscribe-form1 input[type="email"] {
+  letter-spacing: .05em;
+  color: gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .subscribe-form input[type="submit"] {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.subscribe-form1 input[type="submit"] {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -395,11 +441,30 @@ body {
   line-height: 2em;
 }
 
+.subscribe-form1 .response1 {
+  display: block;
+  color: rgba(255, 255, 255, 0);
+  font-size: 12px;
+  letter-spacing: .1em;
+  transition: color .2s;
+  max-width: 300px;
+  margin: auto;
+  line-height: 2em;
+}
+
 .subscribe-form .response a {
   color: gray;
 }
 
+.subscribe-form1 .response1 a {
+  color: gray;
+}
+
 .subscribe-form .response.active {
+  color: #ffffff;
+}
+
+.subscribe-form1 .response1.active {
   color: #ffffff;
 }
 

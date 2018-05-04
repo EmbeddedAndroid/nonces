@@ -53,7 +53,13 @@ $(document).ready(function() {
 	//Subscribe Form
 
 	$('#mc-form').on("submit", function(){
+                $(".response1").removeClass("active");
 		$(".response").addClass("active");
+	});
+
+	$('#mc-form1').on("submit", function(){
+                $(".response").removeClass("active");
+		$(".response1").addClass("active");
 	});
 
 	$("#mc-form").ajaxChimp({
