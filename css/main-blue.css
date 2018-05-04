@@ -200,7 +200,7 @@ body {
 
 @media (max-width: 1170px) {
   .buttons {
-    margin: 40px 0 0;
+    margin: 10px 0 0;
   }
   .buttons .button {
     margin-top: 10px;
@@ -852,6 +852,37 @@ body {
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
   transition: background .5s, z-index 0s;
+}
+
+/*Jackpot*/
+.jackpot {
+  text-align: center;
+  display: block;
+  margin-bottom: 0px;
+}
+
+.jackpot .jackpot-box {
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 0px;
+}
+
+.jackpot .jackpot-box .jackpot-num {
+  font-size: 42px;
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.jackpot .jackpot-box .jackpot-coin {
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+.jackpot .jackpot-box .jackpot-coin:first-letter {
+  color: #05adff;
 }
 
 /*Countdown*/
