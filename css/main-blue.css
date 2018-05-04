@@ -177,7 +177,6 @@ body {
   text-align: center;
   line-height: 2.5em;
   letter-spacing: .15em;
-  max-width: 600px;
 }
 
 @media (max-width: 1170px) {
