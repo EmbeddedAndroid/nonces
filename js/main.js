@@ -66,6 +66,10 @@ $(document).ready(function() {
 		url: mcUrl
 	});
 
+	$("#mc-form1").ajaxChimp({
+		url: mcUrl
+	});
+
 	//Countdown
 
 	if(countdown) {
