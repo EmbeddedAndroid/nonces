@@ -488,7 +488,8 @@ body {
   background: #ffffff;
   box-sizing: border-box;
   color: #000000;
-  overflow-y: scroll;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   transition: right .5s, background .2s;
 }
 
