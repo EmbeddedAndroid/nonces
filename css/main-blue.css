@@ -473,6 +473,15 @@ body {
   background-size: cover;
 }
 
+.modal-claim {
+  background: url(../img/subscribe-background.jpg) center;
+  background-size: cover;
+}
+
+.modal-claim.open {
+  top: 50%;
+}
+
 .modal-subscirbe.open {
   top: 50%;
 }

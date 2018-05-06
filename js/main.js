@@ -9,7 +9,10 @@ $(document).ready(function() {
 	
 	var subBtn = document.getElementById("subscribe-button");
 	var subCls = document.getElementById("subscribe-close");
+        var claimBtn = document.getElementById("claim-button");
+        var claimCls = document.getElementById("claim-close");
 	var subModal = document.getElementById("subscribe-modal");
+        var subClaim = document.getElementById("subscribe-claim");
 	var moreBtn = document.getElementById("know-more-button");
 	var moreCls = document.getElementById("more-close");
 	var more = document.getElementById("more");
@@ -22,6 +25,16 @@ $(document).ready(function() {
 
 	$(subCls).on("click", function() {
 		$(subModal).removeClass("open");
+		$(overlay).removeClass("on");
+	});
+
+	$(claimBtn).on("click", function() {
+		$(subClaim).addClass("open");
+		$(overlay).addClass("on");
+	});
+
+	$(claimCls).on("click", function() {
+		$(subClaim).removeClass("open");
 		$(overlay).removeClass("on");
 	});
 
